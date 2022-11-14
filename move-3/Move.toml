@@ -1,0 +1,13 @@
+[package]
+name = 'move-3'
+version = '1.0.0'
+
+[addresses]
+hallo_blockchain = "0x1"
+Std = "0x1"
+aptos_std = "0x1"
+
+[dependencies.AptosFramework]
+git = 'https://github.com/aptos-labs/aptos-core.git'
+rev = 'main'
+subdir = 'aptos-move/framework/aptos-framework'
